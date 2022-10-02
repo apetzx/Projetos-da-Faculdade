@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="calculadora.js"></script>
+        <link type="text/css" rel="stylesheet" href="calculadora.css">
+    </head>
+
+    <body>
+        <div> <!--somar-->
+            <input type="text" id="sValor1" size="3" class="Cinput"> 
+            <input type="text" id="sValor2" size="3" class="Cinput">
+            <button onclick="somar()" class="Cbotao">+</button> =
+            <input type="text" id="result" class="Rinput" size="10" placeholder="Resultado">
+            <button onclick="apagaSo()" class="Cbotao">Limpar</button>
+            
+        </div>
+        
+        <div> <!--subtrair-->
+            <input type="text" id="suValor1" size="3" class="Cinput"> 
+            <input type="text" id="suValor2" size="3" class="Cinput">
+            <button onclick="subtrair()" class="Cbotao">-</button> =
+            <input type="text" id="result1" class="Rinput"size="10" placeholder="Resultado">
+            <button onclick="apagaSu()" class="Cbotao">Limpar</button>
+        </div>
+
+        <div> <!--multiplicar-->
+            <input type="text" id="mValor1" size="3" class="Cinput"> 
+            <input type="text" id="mValor2" size="3" class="Cinput">
+            <button onclick="multiplicar()" class="Cbotao">*</button> =
+            <input type="text" id="result2" class="Rinput" size="10" placeholder="Resultado">
+            <button onclick="apagaM()" class="Cbotao">Limpar</button>
+        </div>
+
+        <div> <!--dividir-->
+            <input type="text" id="dValor1" size="3" class="Cinput"> 
+            <input type="text" id="dValor2" size="3" class="Cinput">
+            <button onclick="dividir()" class="Cbotao">/</button> =
+            <input type="text" id="result3" class="Rinput" size="10" placeholder="Resultado">
+            <button onclick="apagaD()" class="Cbotao">Limpar</button>
+        </div>
+
+    </body>
+</html>

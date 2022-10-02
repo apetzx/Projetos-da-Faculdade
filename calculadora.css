@@ -1,0 +1,29 @@
+.Cinput{
+    height: 37px;
+    background-color: #EEE;
+    border: solid 1px #CCC ;
+    padding: 10px;
+    margin: 3px;
+    
+}
+
+.Cbotao{
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: #FF8000;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Rinput{
+    height: 37px;
+    padding: 10px;
+}
+
+.Cbotao:hover{
+    background-color: #EE5000;
+}
+
